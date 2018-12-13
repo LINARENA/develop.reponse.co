@@ -1,0 +1,163 @@
+#root {
+  padding-bottom: 144px;
+}
+
+/* header-default */
+.header-default,
+.footer-default {
+  min-width: 1024px;
+  background-color: #fff;
+}
+
+.header-default {
+  padding: 12px 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.header-default .container-xlarge {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 0 auto;
+}
+
+.header-default .logo {
+  width: 110px;
+}
+
+.header-default .header-nav .list-nav {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-default .header-nav .list-nav > li {
+  position: relative;
+  margin-left: 30px;
+}
+
+.header-default .header-nav .list-nav > li a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #999;
+}
+
+.header-default .header-nav .list-nav > li a.active,
+.header-default .header-nav .list-nav > li a:hover {
+  color: #333;
+}
+
+.header-default .util {
+  width: 234px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.header-default .util .my-menu {
+  margin-left: 30px;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #eee;
+}
+
+/* add question */
+.add-question a {
+  background-color: #469bff;
+  border-radius: 20px;
+  padding: 12px 14px;
+  color: #fff;
+  font-size: 11px;
+}
+
+.add-question .icon {
+  background: url(../images/icon-add.svg) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+
+/* content */
+section.content {
+  padding-top: 58px;
+  padding-bottom: 58px;
+}
+
+section.content.padding-small {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* footer */
+
+.footer-default {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f0f3f5;
+  height: 144px;
+  padding: 54px 0 26px;
+}
+
+.footer-default .footer-inner {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.footer-default .footer-logo {
+  width: 164px;
+}
+
+.footer-default .footer-logo img {
+  width: 80px;
+}
+
+.footer-default ul {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-default .footer-nav li {
+  margin-right: 36px;
+}
+
+.footer-default .footer-nav a {
+  font-size: 12px;
+  color: #333;
+  font-weight: 600;
+}
+
+.footer-default .social-media {
+  -ms-flex: 1;
+      flex: 1;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
+.footer-default .social-media li {
+  margin-left: 27px;
+}
+
+.footer-default .social-media a {
+  font-size: 11px;
+  color: #999;
+}
+
+.footer-default .copyright {
+  font-size: 10px;
+  color: #999;
+}

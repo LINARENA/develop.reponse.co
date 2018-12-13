@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <title></title>
+</head>
+
+<body>
+  <div id="root">
+    <header class="header-default">
+      <div class="container-xlarge">
+        <h1 class="logo">
+          <a href="/">
+            <img src="/static/images/logo.svg" alt="Reponse" />
+          </a>
+        </h1>
+        <nav class="header-nav container-medium">
+          <ul class="list-nav list-unstyled">
+            <li class="active"><a href="/"> Home </a></li>
+            <li><a href="/feed/unanswerd"> Unanswered </a></li>
+            <li>
+              <a href=""> Notification </a>
+              <!-- 
+              <ul class="popover-box notification-box list-unstyled">
+                <li>
+                  <a href="" class="clearfix">
+                    <span class="user-img float-left"> <img src="" alt="" /> </span>
+                    <div class="user-info-box float-left">
+                      <span class="name">John Roberson</span>
+                      <span class="user-activity">answered a your question</span>
+                      <span class="time">1m ago</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              -->
+            </li>
+          </ul>
+        </nav>
+        <div class="util">
+          <div class="search">
+            <button type="button" class="btn-none">
+              <img src="/static/images/icon-navi-search.svg" alt="Search" />
+            </button>
+          </div>
+          {% if session['username'] %}
+            <div class="my-menu">
+              <img src="" alt="">
+            </div>
+          {% else %}
+            <ul class="signin list-unstyled">
+              <li><a href="/user/signin"> Login </a></li>
+              <li><a href="/user/signup"> Sign up </a></li>
+            </ul>
+          {% endif %}
+          <!-- 로그인 전 START -->
+          <div class="add-question">
+            <a href=""> <span class="icon"></span> Add question </a>
+          </div>
+        </div>
+      </div>
+    </header>

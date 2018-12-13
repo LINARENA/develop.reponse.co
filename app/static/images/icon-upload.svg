@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Reponse/main/profile/photoedit" transform="translate(-700.000000, -500.000000)" stroke="#333333" stroke-width="0.5">
+            <g id="Photo_upload" transform="translate(480.000000, 313.000000)">
+                <g id="Group-6" transform="translate(220.000000, 187.000000)">
+                    <rect id="Rectangle-8" fill="#FFFFFF" x="0.25" y="0.25" width="39.5" height="39.5" rx="19.75"></rect>
+                    <g id="Group-5" transform="translate(15.000000, 15.000000)" stroke-linecap="square">
+                        <path d="M0.423076923,6.13461538 L10.5769231,6.13461538" id="Line-2"></path>
+                        <path d="M5.5,0.423076923 L5.5,10.5769231" id="Line-3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

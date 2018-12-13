@@ -1,0 +1,172 @@
+/* default */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 1.2;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* font-size */
+
+.fz-16 {
+  font-size: 16px;
+}
+
+/* font-weight */
+
+.fw-normal {
+  font-weight: normal;
+}
+
+
+/* margin */
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+
+/* title */
+.title-xlarge {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title-large {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title-medium {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title-small {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.title-xsmall {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+/* container */
+.container-xlarge {
+  width: 1024px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-large {
+  width: 977px;
+}
+
+.container-regular {
+  width: 720px;
+  padding-bottom: 36px;
+}
+
+.container-medium {
+  width: 520px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.container-medium.mg-left {
+  margin-left: 178px;
+}
+
+/* tab */
+.tab-area {
+  margin-bottom: 45px;
+}
+
+.tab-area li {
+  float: left;
+  margin-right: 46px;
+}
+
+.tab-xlarge {
+  font-size: 24px;
+  font-weight: 700;
+  color: #c9c9c9;
+}
+
+.tab-xlarge.active {
+  color: #333;
+}
+
+.tab-medium {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.tab-small {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.tab-xsmall {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.text-primary {
+  color: #287fe5;
+}
+
+.btn-none {
+  padding: 0;
+  font-weight: bold;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-follow {
+  font-weight: bold;
+  border-color: #8cc2ff;
+}
+
+.btn.btn-followed {
+  padding: 3px 6px 4px 16px;
+  font-size: 11px;
+}
+
+.btn-width240 {
+  width: 240px;
+  font-weight: bold;
+}
+
+.btn-width120 {
+  width: 120px;
+  font-weight: bold;
+}
+
+.ellipsis {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

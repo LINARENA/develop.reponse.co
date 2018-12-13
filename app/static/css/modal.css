@@ -1,0 +1,235 @@
+.modal-search,
+.modal-full {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+/* header-search */
+
+.header-search {
+  position: relative;
+}
+
+.header-search h1.logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.header-search h1.logo img {
+  width: 112px;
+}
+
+.header-search .close {
+  background: url(../images/btn-close.svg) no-repeat;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+/* modal-full */
+
+.header-full {
+  position: relative;
+}
+
+.header-full .close {
+  background: url(../images/btn-close.svg) no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+.modal-full .container {
+  padding: 74px 0;
+}
+
+.modal-inner-box {
+  width: 640px;
+  margin: 0 auto;
+  padding: 46px 40px;
+  border: 1px solid #c9c9c9;
+}
+
+.modal-inner-box .title {
+  margin-bottom: 48px;
+}
+
+.modal-inner-box .policy .title {
+  margin-bottom: 0;
+  font-size: inherit;
+}
+
+.modal-inner-box .policy p {
+  margin-bottom: 16px;
+}
+
+/* modal-confirm */
+
+.modal-confirm .modal-header {
+  text-align: center;
+}
+
+.modal-confirm .title-xlarge {
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.modal-confirm h6.title-small {
+  color: #999;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.modal-confirm p {
+  font-size: 16px;
+  font-weight: 900;
+  color: #333;
+  padding: 0 50px 32px;
+}
+
+/* photoedit-modal */
+
+.photo-edit .modal-content {
+  border-radius: 0;
+}
+
+.photo-edit .photo-modal-header {
+  width: 100%;
+  margin-top: 0;
+}
+
+.photo-edit .photo-modal-header .modal-title {
+  position: absolute;
+  top: 24px;
+  left: 30px;
+}
+
+.photo-edit .photo-modal-header .close {
+  top: 40px;
+  right: 40px;
+}
+
+.photo-edit .button-box {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  background: url(../images/btn-close.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  z-index: 1;
+}
+
+.photo-edit .photoedit-btn-box {
+  margin: 0 auto 50px;
+}
+
+.simple-button-box button {
+  cursor: pointer;
+  border: 0;
+  color: #aaa;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.simple-button-box {
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+
+.simple-button-box button span {
+  color: #aaa;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.simple-button-box .active,
+.simple-button-box .cancel span:hover,
+.simple-button-box .done span:hover {
+  color: #39bc9c;
+}
+
+.photo-upload {
+  display: block;
+  margin-top: 60px;
+  padding: 174px 0 92px;
+  background: url(../images/icon-upload.svg) no-repeat 50% 46%;
+  cursor: pointer;
+}
+
+.photo-upload input {
+  display: none;
+}
+
+.photo-upload p {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.modal-body button.btn-facebook,
+.modal-body button.btn-google {
+  color: #fff;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 6px;
+  padding-left: 20px;
+}
+
+.modal-body .btn-google {
+  background-color: #df4930;
+}
+
+.modal-body .btn-facebook {
+  background-color: #386cbe;
+}
+
+.modal-body .btn-facebook i {
+  margin-right: 13px;
+}
+
+.modal-body .btn-google i {
+  margin: 0 9px 0 -5px;
+  font-weight: 100;
+}
+
+.modal-signup-footer {
+  background-color: #f0f3f5;
+  color: #555555;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  padding: 22px 0 24px;
+  margin-top: 50px;
+}
+
+.modal-signup-footer a {
+  color: #469bff;
+  font-weight: bold;
+}
+
+.modal-body p.error-message {
+  background-color: #f74e1a;
+  color: #fff;
+  padding: 6px 36px;
+  margin-top: -20px;
+}
